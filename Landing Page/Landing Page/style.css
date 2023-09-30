@@ -1,0 +1,315 @@
+ body, ul {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins';
+        }
+
+        /* Style the navbar */
+        .nav-cover{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .navbar {
+            background-color: #FFFFFF; /* Set the background color */
+            overflow: hidden; /* Ensure content doesn't overflow */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+        }
+        .logo{
+            width: 100%;
+            max-width: 40px;
+            height: 40px;
+        }
+        .nav-left{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        /* Style the navbar links */
+        .navbar a { 
+            color: black; /* Set the text color */
+            text-align: center; /* Center-align the text */
+            padding: 14px 16px; /* Add padding to the links */
+            text-decoration: none; /* Remove underlines */
+        }
+
+        /* Change link color on hover */
+        .navbar a:hover {
+            background-color: #fff000; /* Change background color on hover */
+            color: black; /* Change text color on hover */
+        }
+    .carousel {
+        display: flex;
+        overflow: hidden;
+        width: 100%; /* Adjust the width as needed */
+    }
+
+    .slide {
+        flex: 0 0 100%; /* Each slide takes the full width of the container */
+        height: 300px; /* Adjust the height as needed */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: relative;
+    }
+
+    .dot-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top:21rem; /* Adjust the vertical position */
+        left: 0;
+        right: 0;
+    }
+    .carousel-btn{
+        display: flex;
+        align-items: center;
+    }
+    .dot {
+        width: 8px;
+        height: 8px;
+        background-color: #fff000;
+        border-radius: 50%;
+        margin: 0 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .dot.active {
+        background-color: #ed008c; /* Change color for active dot */
+    }
+    .content {
+        position: absolute;
+        bottom: 20%; /* Adjust the position as needed */
+        left: 30%; /* Adjust the position as needed */
+        /*background-color: rgba(255, 255, 255, 0.8); /* Background for content */*/
+        padding: 10px;
+        border-radius: 5px;
+        /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);*/
+        
+    }
+    .carousel-separator{
+            width: 3px;
+            height: 180px;
+            background-color: #ed008c;
+            background-image: linear-gradient(315deg, #ed008c 0%, #fff000 104%);
+            margin: 0px 10px; 
+        }
+    .carousel-text{
+        display: flex;
+    }
+    .car-req-btn{
+        border: 2px solid #000;
+        background-color: transparent;
+        color: #000;
+        outline: none;
+        border-radius: 20px;
+        padding: 12px;
+        margin-left: 10px;
+    }
+       .section-2{
+        width:100%;
+        height: 220px;
+        background-color: #ed008c;
+        background-image: linear-gradient(315deg, #ed008c 0%, #fff000 104%);
+        margin-top: -5px;
+        display: flex;
+        align-items: center;
+        color: white;
+       }
+       .card-cover{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        }
+        .card-out{
+            width: 100%;
+            max-width: 300px;
+            height: 150px;
+            padding: 10px;
+        }
+        .card-logo{
+            display: flex;
+            align-items: center;
+        }
+        .material-icons1{
+            font-size: 36px;
+            color: white;
+            padding-right: 10px;
+        }
+        .section-3{
+            display: flex;
+            justify-content: center;
+            width:100%;
+            align-items: center;
+            padding-bottom: 20px;
+        }
+        .about-text{
+            width: 100%;
+            max-width: 500px;
+        }
+        .hr-line{
+            color: #ed008c;
+            background-image: linear-gradient(315deg, #ed008c 0%, #fff000 104%);
+            font-weight: bold;
+            border:none;
+            border-top:2px solid ;/* or bottom */ 
+            width:100%;
+            max-width: 70px;
+        }
+        .Read-more{
+            padding: 15px;
+            border:none;
+            outline: none;
+            border-radius: 20px;
+            color: #fff;
+            background-color: #ed008c;
+            background-image: linear-gradient(315deg, #ed008c 0%, #fff000 104%);
+        }
+        .about-img{
+            width: 100%;
+            max-width: 500px;
+        }
+        .about-img img{
+            width: 100%
+            max-width:250px;
+            height: 300px;
+            vertical-align: bottom;
+        }
+        .rect{
+            position: relative;
+            display: inline-block;
+        }
+        .rect:after {
+          content: '';
+          position: absolute;
+          left: 4rem;
+          bottom: -2px;
+          border: 2px solid #ed008c;
+          width: 100%;
+          max-width: 320px;
+          height: 65px;
+          z-index: -1;
+        }
+        .section-4{
+            width:100%;
+            padding-bottom: 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 25px;
+            background-color: #ECF0F1;
+        }
+        .service-wrap{
+             max-width: 1000px;
+             width: 100%
+        }
+        .service-text{
+            max-width: 1000px;
+            width: 100%;
+        }
+        .service-img{
+            width: 100%;
+            max-width: 280px;
+            height: 170px;
+        }
+        .servicetext_wrap{
+            display: flex;
+            align-items: center;
+            position: absolute;
+            bottom: -35px;
+            right: 29px;
+            background-color: white;
+            border: none;
+            border-radius: 25px 0 0 25px;
+            max-width: 220px;
+            width: 100%;
+        }
+        .card-out1{
+            position: relative;
+        }
+        .icon-wrap{
+            color: #fff;
+            background-color: #ed008c;
+            background-image: linear-gradient(315deg, #ed008c 0%, #fff000 104%);
+            border-radius: 50%;
+            width: 100%;
+            max-width:50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .icon-wrap .material-icons{
+            font-size: 36px;
+            color: white;
+        }
+        .card-text1{
+            padding: 0px 10px;
+
+        }
+        .footer-sec{
+            width:100%;
+            height: 70px;
+            background-color: #ed008c;
+            background-image: linear-gradient(315deg, #ed008c 0%, #fff000 104%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .footer-cover{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width:1200px;
+            width: 100%;
+        }
+        .footer-btn{
+            border: 2px solid #fff;
+            background-color: transparent;
+            color: #fff;
+             outline: none;
+            border-radius: 20px;
+            padding: 12px;
+        }
+        .social-links{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .foot-icon{
+            color: #FFF;
+            font-size: 24px;
+            margin-right: 10px;
+            text-decoration: none;
+        }
+        .separator {
+            width: 1px;
+            height: 36px; /* Adjust the height of the separator line */
+            background-color: #FFF; /* Adjust the color of the separator line */
+            margin-right: 10px; /* Adjust the spacing between separators and icons */
+        }
+        .contact{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .contact-icon{
+            display: flex;
+            align-items: center;
+        }
+        .contact-info{
+            padding-left: 5px;
+        }
+        .separator1{
+            width: 1px;
+            height: 40px;
+            background-color: #FFF; 
+            margin-right: 10px; 
+        }
+        

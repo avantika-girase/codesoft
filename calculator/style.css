@@ -1,0 +1,45 @@
+html,body{
+    width: 100%;
+    max-width: 1400px;
+    text-align: center;
+    margin: 10px;
+}
+.container{
+    width:100%;
+    max-width: 300px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    background-color:rgb(75, 163, 244);
+    border-radius: 15px;
+    padding: 10px;
+}
+span{
+    background-color:#ecfc73 ;
+}
+.button{
+    padding: 16px;
+    margin: 0 3px;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: rgb(198, 241, 240);
+    outline: none;
+    border:none;
+}
+.row{
+    margin: 8px 0;
+    
+}
+.row input{
+    margin: 0;
+    padding: 10px 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    border:none;
+}
+
+
+
